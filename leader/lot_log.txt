@@ -1,0 +1,9 @@
+[2026-02-23 13:28:45] Executed lotQuery: INSERT INTO lot (coupon, tgl_lot, shift, qty, status) VALUES ('EVA-03', '2026-02-23 13:28:45', 1, 100, 'Used')
+[2026-02-23 13:28:45] Executed stokQuery: UPDATE stok SET qty = qty + 100 WHERE part_code = 'PEVA-B243JBEZ'
+[2026-02-23 13:28:45] Executed historyQuery: INSERT INTO history_lot (coupon, tgl_lot, shift, qty, status) VALUES ('EVA-03', '2026-02-23 13:28:45', 1, 100, 'IN')
+[2026-02-23 13:28:52] Executed lotQuery: INSERT INTO lot (coupon, tgl_lot, shift, qty, status) VALUES ('EVA-044', '2026-02-23 13:28:52', 1, 100, 'Used')
+[2026-02-23 13:28:52] Executed stokQuery: UPDATE stok SET qty = qty + 100 WHERE part_code = 'PEVA-B243JBEZ'
+[2026-02-23 13:28:52] Executed historyQuery: INSERT INTO history_lot (coupon, tgl_lot, shift, qty, status) VALUES ('EVA-044', '2026-02-23 13:28:52', 1, 100, 'IN')
+[2026-02-23 13:30:44] Executed lotQuery: INSERT INTO lot (coupon, tgl_lot, shift, qty, status) VALUES ('EVA-05', '2026-02-23 13:30:44', 1, 100, 'Used')
+[2026-02-23 13:30:44] Executed stokQuery: UPDATE stok SET qty = qty + 100 WHERE part_code = 'PEVA-B243JBEZ'
+[2026-02-23 13:30:44] Executed historyQuery: INSERT INTO history_lot (coupon, tgl_lot, shift, qty, status) VALUES ('EVA-05', '2026-02-23 13:30:44', 1, 100, 'IN')

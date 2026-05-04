@@ -1,0 +1,22 @@
+[2025-08-27 12:55:56] Gagal Scan: SUC-IVT-09 - 2025-08-27 12:55:56
+[2025-08-27 12:56:22] Executed lotQuery: UPDATE piping_lot SET tgl_lot = '0000-00-00 00:00:00', qty = 0, shift = 0, status = 'Available' WHERE coupon = 'SUC-IVT-09'
+[2025-08-27 12:56:22] Executed stokQuery: UPDATE piping_stok SET qty = qty - 75 WHERE part_code = 'SUC-IVT'
+[2025-08-27 12:56:22] Executed historyQuery: INSERT INTO piping_history_lot (coupon, tgl_lot, shift, qty, status) VALUES ('SUC-IVT-09', '2025-08-27 12:56:22', 1, 75, 'OUT')
+[2025-08-27 12:56:27] Executed lotQuery: UPDATE piping_lot SET tgl_lot = '0000-00-00 00:00:00', qty = 0, shift = 0, status = 'Available' WHERE coupon = 'SUC-IVT-12'
+[2025-08-27 12:56:27] Executed stokQuery: UPDATE piping_stok SET qty = qty - 75 WHERE part_code = 'SUC-IVT'
+[2025-08-27 12:56:27] Executed historyQuery: INSERT INTO piping_history_lot (coupon, tgl_lot, shift, qty, status) VALUES ('SUC-IVT-12', '2025-08-27 12:56:27', 1, 75, 'OUT')
+[2025-08-27 12:57:02] Gagal Scan: SUC-IVT-13 - 2025-08-27 12:57:02
+[2025-08-27 13:12:12] Gagal Scan: SUC-IVT-13 - 2025-08-27 13:12:12
+[2025-08-27 13:12:40] Executed lotQuery: UPDATE piping_lot SET tgl_lot = '0000-00-00 00:00:00', qty = 0, shift = 0, status = 'Available' WHERE coupon = 'SUC-IVT-13'
+[2025-08-27 13:12:40] Executed stokQuery: UPDATE piping_stok SET qty = qty - 75 WHERE part_code = 'SUC-IVT'
+[2025-08-27 13:12:40] Executed historyQuery: INSERT INTO piping_history_lot (coupon, tgl_lot, shift, qty, status) VALUES ('SUC-IVT-13', '2025-08-27 13:12:40', 1, 75, 'OUT')
+[2025-08-27 13:12:52] Executed lotQuery: UPDATE piping_lot SET tgl_lot = '0000-00-00 00:00:00', qty = 0, shift = 0, status = 'Available' WHERE coupon = 'SUC-IVT-11'
+[2025-08-27 13:12:52] Executed stokQuery: UPDATE piping_stok SET qty = qty - 75 WHERE part_code = 'SUC-IVT'
+[2025-08-27 13:12:52] Executed historyQuery: INSERT INTO piping_history_lot (coupon, tgl_lot, shift, qty, status) VALUES ('SUC-IVT-11', '2025-08-27 13:12:52', 1, 75, 'OUT')
+[2025-08-27 13:12:59] Gagal Scan: SUC-IVT-10 - 2025-08-27 13:12:59
+[2026-02-23 13:37:23] Executed lotQuery: INSERT INTO piping_lot (coupon, tgl_lot, shift, qty, status) VALUES ('DIS-68K-02', '2026-02-23 13:37:23', 1, 100, 'Used')
+[2026-02-23 13:37:23] Executed stokQuery: UPDATE piping_stok SET qty = qty + 100 WHERE part_code = 'DIS-68K'
+[2026-02-23 13:37:23] Executed historyQuery: INSERT INTO piping_history_lot (coupon, tgl_lot, shift, qty, status) VALUES ('DIS-68K-02', '2026-02-23 13:37:23', 1, 100, 'IN')
+[2026-02-23 13:37:36] Executed lotQuery: INSERT INTO piping_lot (coupon, tgl_lot, shift, qty, status) VALUES ('DIS-68K-03', '2026-02-23 13:37:36', 1, 100, 'Used')
+[2026-02-23 13:37:36] Executed stokQuery: UPDATE piping_stok SET qty = qty + 100 WHERE part_code = 'DIS-68K'
+[2026-02-23 13:37:36] Executed historyQuery: INSERT INTO piping_history_lot (coupon, tgl_lot, shift, qty, status) VALUES ('DIS-68K-03', '2026-02-23 13:37:36', 1, 100, 'IN')
